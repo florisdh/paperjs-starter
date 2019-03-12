@@ -5,6 +5,15 @@ const merge = require('webpack-merge');
 
 module.exports = merge(common, {
     mode: 'production',
+    module: {
+        rules: [
+            {
+                test: /\.tsx?$/,
+                use: 'ts-loader',
+                exclude: /node_modules/
+            }
+        ]
+    },
     output: {
         filename: `${config.name}.min.js`,
         path: path.join(common.context, '_build/dist')
