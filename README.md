@@ -1,16 +1,16 @@
 # paperjs-starter
-[![forthebadge](https://forthebadge.com/images/badges/built-with-love.svg)](https://forthebadge.com)
-[![forthebadge](https://forthebadge.com/images/badges/check-it-out.svg)](https://forthebadge.com)
+[![forthebadge](https://forthebadge.com/images/badges/built-with-love.svg)](https://forthebadge.com)[![forthebadge](https://forthebadge.com/images/badges/check-it-out.svg)](https://forthebadge.com)
 
-A fundamental starter project for Paper.js using webpack to make your day a bit easier.
+[![dependencies](https://david-dm.org/florisdh/paperjs-starter.svg)](https://david-dm.org/florisdh/paperjs-starter)
+
+A fundamental **Paper.js starter project** using webpack to make your day a bit easier.
 
 ## Features
-- Typescript/javascript support
+- Typescript/javascript source support
 - Sample Paper.js drawpad app
-- Clear project setup
+- Clear project hierarchy
 - Auto cache busting source files
-- Optimised development and distribution builds
-- Html templating using handlebars
+- Fast development and minified distribution builds
 
 ## Usage
 
